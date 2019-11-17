@@ -1,4 +1,4 @@
-package maze;
+package tower;
 
 public class Direction {
 	public static final int NORTH = 0;

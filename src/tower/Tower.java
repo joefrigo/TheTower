@@ -1,4 +1,4 @@
-package maze;
+package tower;
 
 public class Tower {
 	

@@ -1,4 +1,4 @@
-package maze;
+package tower;
 
 public class Floor {
 	
@@ -24,12 +24,13 @@ public class Floor {
 	
 	public void createMaze(){
 		//generate the size of the maze first
-		System.out.println("Generate the maze size");
+		//System.out.println("=====Generate the maze size=====");
 		this.generateFloor.generateMazeSize();
 		this.sideX = this.generateFloor.getSideX();
 		this.sideY = this.generateFloor.getSideY();
 		this.tiles = new Tile[sideX][sideY];
-		System.out.println("The map size is " + sideX + " par " + sideY);
+
+		//System.out.println("The map size is " + sideX + " par " + sideY);
 		
 		//create a single method that regroups everything
 		this.generateFloor.createMaze(tiles);
